@@ -1,6 +1,8 @@
 # Whisper Online Video Transcriber
 
-Python script designed to download and transcribe audio from both YouTube and third-party video URLs using the Faster Whisper model. The script allows to specify the language, Whisper model size, and VAD (Voice Activity Detection) filter settings for accurate transcription. **This is meant for personal use to use as an alternative for Google Colab (If you ran out of GPU time there), sharing this in case it helps someone. :)**
+Python script designed to download and transcribe audio from both YouTube and third-party video URLs using the Faster Whisper model. The script allows to specify the language, Whisper model size, and VAD (Voice Activity Detection) filter settings for accurate transcription. 
+
+**This is meant for my personal use, hence why is not that complete, you can use it as an alternative for Google Colab (eg. If you ran out of GPU time there), sharing this in case it helps someone. :)**
 
 **Works better with ASBPlayer(https://github.com/killergerbah/asbplayer) for subtitle drop, and any video dl extension (such as FetchV on Chrome Store) to get the video URL of any site.**
 
@@ -11,8 +13,7 @@ https://github.com/user-attachments/assets/82496d7e-a9eb-400e-b7d6-79126b758fc0
 ## Features
 
 - **Support for YouTube and Non-YouTube Videos**: Automatically detects YouTube URLs and downloads the audio for transcription. For non-YouTube URLs, it directly downloads the video using `yt-dlp`.
-- **Customizable Settings**: Users can choose the Whisper model size, transcription language, and VAD filter settings.
-- **Flexible Output Directory**: Users can specify their preferred output directory for storing transcriptions.
+- **Customizable Settings**: Can choose the Whisper model size, transcription language, and VAD filter settings.
 
 ## Requirements
 
