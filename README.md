@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/82496d7e-a9eb-400e-b7d6-79126b758fc0
 - `faster-whisper` for transcription
 - `pyperclip` for clipboard monitoring
 - `subprocess` for running external commands
-- CUDA (optional, but recommended for faster performance)
+- CUDA optional, but recommended for faster performance. (You can run this with your CPU by editing `device="cuda"` to `device="cpu"` but the performance won't be as good.)
 - Ensure you have a CUDA-compatible GPU and the appropriate drivers installed if using GPU acceleration.
   
 ## Installation
