@@ -13,8 +13,11 @@ Whisper Online Video Transcriber is a Python-based script designed to download a
 - Python 3.x
 - `yt-dlp` for downloading videos
 - `faster-whisper` for transcription
+- `pyperclip` for clipboard monitoring
+- `subprocess` for running external commands
 - CUDA (optional, but recommended for faster performance)
-
+- Ensure you have a CUDA-compatible GPU and the appropriate drivers installed if using GPU acceleration.
+  
 ## Installation
 
 1. Clone the repository:
@@ -22,7 +25,7 @@ Whisper Online Video Transcriber is a Python-based script designed to download a
    ```bash
    git clone https://github.com/yourusername/whisper-online-video-transcriber.git
    cd whisper-online-video-transcriber
-   pip install -r requirements.txt
+   pip install yt-dlp faster-whisper pyperclip
 
 # Usage
 1. Run the script:
