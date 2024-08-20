@@ -2,6 +2,12 @@
 
 Whisper Online Video Transcriber is a Python-based script designed to download and transcribe audio from both YouTube and third-party video URLs using the Faster Whisper model. The script allows users to specify the language, Whisper model size, and VAD (Voice Activity Detection) filter settings for accurate transcription.
 
+*Works better with ASBPlayer(https://github.com/killergerbah/asbplayer) for subtitle drop, and any video dl extension (such as FetchV on Chrome Store) to get the video URL of any site.
+
+https://github.com/user-attachments/assets/82496d7e-a9eb-400e-b7d6-79126b758fc0
+
+
+
 ## Features
 
 - **Support for YouTube and Non-YouTube Videos**: Automatically detects YouTube URLs and downloads the audio for transcription. For non-YouTube URLs, it directly downloads the video using `yt-dlp`.
