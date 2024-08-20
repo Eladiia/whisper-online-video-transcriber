@@ -23,7 +23,7 @@ Whisper Online Video Transcriber is a Python-based script designed to download a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/whisper-online-video-transcriber.git
+   git clone https://github.com/eladiia/whisper-online-video-transcriber.git
    cd whisper-online-video-transcriber
    pip install yt-dlp faster-whisper pyperclip
 
